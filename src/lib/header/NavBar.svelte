@@ -1,20 +1,21 @@
 <script>
     import NavLink from "./NavLink.svelte"
+    import {base} from "$app/paths"
 </script>
 
 
 <div class="flex-out">
 
-    <NavLink href="/">
+    <NavLink href="{base}/">
         ABOUT
     </NavLink>
-    <NavLink href="/experience">
+    <NavLink href="{base}/experience">
         EXPERIENCE
     </NavLink>
-    <NavLink href="/projects">
+    <NavLink href="{base}/projects">
         PROJECTS
     </NavLink>
-    <NavLink href="/cover-letter">
+    <NavLink href="{base}/cover-letter">
         COVER LETTER
     </NavLink>
 

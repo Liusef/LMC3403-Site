@@ -3,9 +3,11 @@
     export let href
     export let open
 
+    import {base} from "$app/paths"
+
 const curpage = (path, target) => {
-    if (target === "/" && path === "/") return true;
-    else if (target !== "/" && path.substring(0, target.length) === target) return true;
+    if (target === `${base}/` && path === `${base}/`) return true;
+    else if (target !== `${base}/` && path.substring(0, target.length) === target) return true;
     return false;
 }
 

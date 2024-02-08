@@ -19,6 +19,8 @@
     import mail from "../assets/mail.png"
     import lin from "../assets/in.png"
 
+    import {base} from "$app/paths"
+
 </script>
 
 <title>
@@ -71,7 +73,7 @@
 
 <Body>
     <div class="smol" style:height=33rem>
-            <a href="/experience" style:color=white>
+            <a href="{base}/experience" style:color=white>
                 <Card img={exp} height=12rem padding=0>
                     <div class=grad>
                         <div class="container">
@@ -85,7 +87,7 @@
                     </div>
                 </Card>
             </a>
-            <a href="/projects" style:color=white>
+            <a href="{base}/projects" style:color=white>
                 <Card img={proj} height=12rem padding=0>
                     <div class=grad>
                         <div class="container">
@@ -99,7 +101,7 @@
                     </div>
                 </Card>
             </a>
-            <a href="/cover-letter" style:color=white>
+            <a href="{base}/cover-letter" style:color=white>
                 <Card img={cover} height=12rem padding=0>
                     <div class=grad>
                         <div class="container">
@@ -116,7 +118,7 @@
     </div>
 
     <div class="info-grid large" style="grid-template-columns: repeat(auto-fit)">
-        <a href="/experience" style:color=white>
+        <a href="{base}/experience" style:color=white>
             <GradRevealDetails img={exp} height=15rem maxHeightDelta="3rem">
                 <div slot=above class="h2 popup">
                     My Experience
@@ -126,7 +128,7 @@
                 </div>
             </GradRevealDetails>
         </a>
-        <a href="/projects" style:color=white>
+        <a href="{base}/projects" style:color=white>
             <GradRevealDetails img={proj} height=15rem maxHeightDelta="3rem">
                 <div slot=above class="h2 popup">
                     My Projects
@@ -136,7 +138,7 @@
                 </div>
             </GradRevealDetails>
         </a>
-        <a href="/cover-letter" style:color=white>
+        <a href="{base}/cover-letter" style:color=white>
             <GradRevealDetails img={cover} height=15rem maxHeightDelta="3rem">
                 <div slot=above class="h2 popup">
                     Cover Letter

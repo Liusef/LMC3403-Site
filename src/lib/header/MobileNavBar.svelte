@@ -2,6 +2,7 @@
     import {Hamburger} from "svelte-hamburgers";
     import NavLink from "./NavLink.svelte";
     import {fly} from 'svelte/transition'
+    import {base} from '$app/paths'
 
     export let open
 
@@ -11,22 +12,22 @@
 {#if open}
     <div class="mobile-menu mobilemenu-out" transition:fly|global={{x: 150}}>
         <div transition:fly|global={{x: 15, delay: 80 * 1}} on:click={() => open = false}>
-            <NavLink href="/">
-                HOME
+            <NavLink href="{base}/">
+                ABOUT
             </NavLink>
         </div>
         <div transition:fly|global={{x: 15, delay: 80 * 3}} on:click={() => open = false}>
-            <NavLink href="/experience">
+            <NavLink href="{base}/experience">
                 EXPERIENCE
             </NavLink>
         </div>
         <div transition:fly|global={{x: 15, delay: 80 * 3}} on:click={() => open = false}>
-            <NavLink href="/projects">
+            <NavLink href="{base}/projects">
                 PROJECTS
             </NavLink>
         </div>
         <div transition:fly|global={{x: 15, delay: 80 * 4}} on:click={() => open = false}>
-            <NavLink href="/cover-letter">
+            <NavLink href="{base}/cover-letter">
                 COVER LETTER
             </NavLink>
         </div>

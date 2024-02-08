@@ -5,6 +5,8 @@
     import ReactiveComp from "../../lib/ReactiveComp.svelte";
     import ReactiveComp825 from "../../lib/ReactiveComp825.svelte"
 
+    import {base} from "$app/paths"
+
     export let breakpointVh = 20
 
     let vpHeight, scroll, scrolled
@@ -24,7 +26,7 @@
     <div class="title title-dim" class:scrolled>
         <div class="container" class:scrolled>
             <div style:grid-column="1" style:text-align="left" style:width="100%" style:display="flex">
-                <a href="/" on:click={() => {open = false}} style:display="flex">
+                <a href="{base}/" on:click={() => {open = false}} style:display="flex">
                     <img class="logo-img" {src}/>
                 </a>
             </div>
