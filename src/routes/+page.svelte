@@ -42,8 +42,8 @@
             <p class="h1">
                 About Me
             </p>
-            <p class="text">Hello, I'm Joseph, a third-year undergraduate at Georgia Tech, specializing in Systems/Architecture and Artificial Intelligence. My passion lies in exploring the intricacies of computer systems, distributed &amp; high-performance computing, and machine learning.</p>
-            <p class="text">My academic journey has equipped me with a strong foundation in <strong>OS design</strong>, <strong>virtualization</strong>, and <strong>distributed system design</strong>, including synchronization, distributed memory and storage, and parallelizing queries using MapReduce. Additionally, I've delved into the realm of AI, gaining insights into <strong>machine learning</strong>, <strong>computer vision</strong>, and <strong>robotics</strong>, and becoming proficient in tools like Jupyter, NumPy, and PyTorch.</p>
+            <p class="text">Hello, I'm Joseph, a third-year undergraduate studying computer science at Georgia Tech, specializing in Systems/Architecture and Artificial Intelligence. My passion lies in exploring the intricacies of computer systems, distributed systems, high-performance computing, and machine learning.</p>
+            <p class="text">My academic journey has equipped me with a strong foundation in <strong>OS design</strong>, <strong>virtualization</strong>, and <strong>distributed system design</strong>, including synchronization, distributed memory and storage, and applying distributed system theory in an application, namely my own implementation of the <strong>MapReduce System</strong>. Additionally, I've delved into the realm of AI, gaining insights into <strong>machine learning</strong>, <strong>computer vision</strong>, and <strong>robotics</strong>, and becoming proficient in tools like Jupyter, NumPy, and PyTorch.</p>
         </div>  
     </SideBySide>
 </Body>
